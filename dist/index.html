@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==">
+    <link rel="stylesheet"
+        href="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../jquery/jquery.js">
+    <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="./output.css">
     <title>Document</title>
 </head>
@@ -12,13 +17,13 @@
 <body>
     <!-- HEADER SECTION -->
     <header class="bg-black h-20 text-white font-bold flex flex-wrap items-center justify-evenly ">
-       <div class="flex flex-wrap gap-5 items-center ">
-        <img src="../img/3logo.jpg" class="w-16 h-16  float-start rounded-full " alt="">
-        <div class="flex flex-wrap flex-col">
-         <h5 class=" float-start italic font-serif">Good Food</h5>
-         <p class="italic font-serif">Recipes</p>
+        <div class="flex flex-wrap gap-5 items-center ">
+            <img src="../img/3logo.jpg" class="w-16 h-16  float-start rounded-full " alt="">
+            <div class="flex flex-wrap flex-col">
+                <h5 class=" float-start italic font-serif">Good Food</h5>
+                <p class="italic font-serif">Recipes</p>
+            </div>
         </div>
-       </div>
         <section class="float-right">
             <ul class="flex flex-wrap items-center gap-12">
                 <li class=""><a href="">Home</a></li>
@@ -30,115 +35,163 @@
     </header>
     <!-- BAMNER SECTION -->
 
-    <section class="object-cover static " style="background-image: url(../img/banner.jpg); height:800px;"  >
-    
+    <section class="bg-[url('../img/banner.jpg')] object-cover static h-screen">
 
-        <div class="h-96  bg-white bg-opacity-50 left-96 bottom-60 transition justify-center  shadow-2xl absolute  p-10 space-y-6" style="width: 40%; ">
-            <h6 class="text-7xl font-semibold  transition duration-500 hover:text-orange-500">Moroccan Carrotbr <br>Salad with Feta</h6>
-            <p class="text-start font-serif italic">Bored with the same old salad? You’ll love this easy-to-cook recipe, which <br>
-                 combines ingredients you probably already have in your kitchen in new <br>
-                  and interesting ways.</p>
-                  
-        <button class="bg-orange-400 text-white px-5 py-3 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110">View Racipe</button>
+
+        <div class="h-96  bg-white bg-opacity-50 left-96 bottom-60 transition justify-center  shadow-2xl absolute  p-10 space-y-6"
+            >
+            <h6 class="text-7xl font-semibold  transition duration-500 hover:text-orange-500">Moroccan Carrotbr
+                <br>Salad with Feta
+            </h6>
+            <p class="text-start font-serif italic">Bored with the same old salad? You’ll love this easy-to-cook recipe,
+                which <br>
+                combines ingredients you probably already have in your kitchen in new <br>
+                and interesting ways.</p>
+
+            <button
+                class="bg-orange-400 text-white px-5 py-3 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110">View
+                Racipe</button>
         </div>
 
 
     </section>
 
-      <section class="flex flex-wrap justify-evenly m-auto mt-5" style="width: 90%;">
+
+<!-- 2nd section -->
+    <section class="flex flex-wrap justify-evenly m-auto mt-5">
 
 
-        <div class="w-1/2 justify-center  p-10 space-y-6" style="width: 40%; ">
-            <h6 class="text-5xl uppercase font-semibold  transition duration-500 hover:text-orange-500">Welcome to  Good Food</h6>
-            <div class="h-1 w-40 bg-green-600">  </div>
-            <p class="text-start font-serif italic">Good Food is a unique resource, designed as a single place for new recipes lovers and food enthusiasts. It features the largest collection of professionally-tested recipes online from food experts at the magazines and cookbooks you love and trust--including Cooking Light, Southern Living, Sunset, Coastal Living, Real Simple, and more. <br>
-                  and interesting ways.</p>
-             
+        <div class="w-1/2 justify-center  p-10 space-y-6">
+            <h6 class="text-5xl uppercase font-semibold  transition duration-500 hover:text-orange-500">Welcome to Good
+                Food</h6>
+            <div class="h-1 w-40 bg-green-600"> </div>
+            <p class="text-start font-serif italic">Good Food is a unique resource, designed as a single place for new
+                recipes lovers and food enthusiasts. It features the largest collection of professionally-tested recipes
+                online from food experts at the magazines and cookbooks you love and trust--including Cooking Light,
+                Southern Living, Sunset, Coastal Living, Real Simple, and more. <br>
+                and interesting ways.</p>
 
-                
-        <button class="bg-green-700 text-white px-5 py-3 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110">learn more -></button>
+
+
+            <button
+                class="bg-green-700 text-white px-5 py-3 transition duration-500 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110">learn
+                more -></button>
         </div>
 
 
         <div class="">
-           <img src="../img/2nd.jpg" class="" alt="">
+            <img src="../img/2nd.jpg" class="" alt="">
         </div>
-      </section>
+    </section>
 
 
 
 
-      <!-- 3rd section -->
+    <!-- 3rd section --> 
+
+    <div class="bg-[url('../img/bacgrounfd.jpg')] content-around   justify-evenly">
+        <div class="flex flex-wrap flex-col gap-7 p-14">
+            <h6 class="text-5xl uppercase font-semibold text-center  ">Welcome to Good Food</h6>
+            <div class="h-1 w-28 bg-black m-auto align-middle"> </div>
+            <p class="text-center">Here are our most popular categories of recipes, submitted by our <br>
+                users, guests of our website, and professional cooks.</p>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4 container mx-auto bg-cover justify-center m-auto transition">
+            <div>
+                <img src="../img/1.jpg" alt="" class="m-auto hover:grayscale">
+                <h1 class="font-bold text-orange-400 text-2xl hover:text-black  h-14 text-center">Chiken Recipes</h1>
+            </div>
+            <div>
+                <img src="../img/2.jpg" class="m-auto hover:grayscale" alt="">
+                <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Slow-Cooker Recipes</h1>
+            </div>
+            <div>
+                <img src="../img/3.jpg" class="m-auto hover:grayscale" alt="">
+                <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Dessert Recipes</h1>
+            </div>
+            <div>
+                <img src="../img/4.jpg" alt="" class="m-auto hover:grayscale">
+                <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Seafood Recipes</h1>
+            </div>
+            <div>
+                <img src="../img/5.jpg" alt="" class="m-auto hover:grayscale">
+                <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Appetizer Recipes</h1>
+            </div>
+            <div>
+                <img src="../img/6.jpg" alt="" class="m-auto hover:grayscale">
+                <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Sandwich Recipes</h1>
+            </div>
+            <div>
+                <img src="../img/7.jpg" alt="" class="m-auto hover:grayscale">
+                <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Vegetable Recipes</h1>
+            </div>
+            <div>
+                <img src="../img/8.jpg" alt="" class="m-auto hover:grayscale">
+                <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Salad Recipes</h1>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class=" content-around   justify-evenly">
+        <div class="flex flex-wrap flex-col gap-7 p-14">
+            <h6 class="text-5xl uppercase font-semibold text-center  ">Special Selections</h6>
+            <div class="h-1 w-28 bg-green-600 m-auto align-middle"> </div>
+            <p class="text-center">On our website you can find selections of recipes grouped by <br>
+                mealtimes, authors or ingredients..</p>
+        </div>
+
+
+        <div class="grid grid-cols-4 gap-10 container justify-center m-auto text-center">
+            <div>
+                <i class="fa-solid fa-mug-hot text-7xl text-green-700 transition duration-700 ease-in-out  hover:-translate-y-2 hover:scale-125 hover:text-black  "></i>
+                <h1 class="font-semibold p-3">Breakfast</h1>
+            </div>
+            <div>
+                <i class="fa-solid fa-bowl-rice text-7xl text-green-700 transition duration-700 ease-in-out  hover:-translate-y-2 hover:scale-125 hover:text-black "></i>
+                <h1 class="font-semibold p-3">Lunch</h1>
+            </div>
+            <div>
+                <i class="fa-solid fa-utensils text-7xl text-green-700 transition duration-700 ease-in-out  hover:-translate-y-2 hover:scale-125 hover:text-black "></i>
+                <h1 class="font-semibold p-3">Dinner</h1>
+            </div>
+            <div>
+                <i class="fa-solid fa-burger text-7xl text-green-700 transition duration-700 ease-in-out  hover:-translate-y-2 hover:scale-125 hover:text-black "></i>
+                <h1 class="font-semibold p-3">Custom</h1>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!-- contact -->
+  <div class=" container text-center  m-auto p-14 flex flex-wrap flex-col gap-5 ali ">
+    <div class="">
+        <h1 class="text-4xl ">Contact us</h1>
+        <div class="h-1 w-40 bg-orange-500 m-auto"></div>
+    </div>
     
-  <div class=" content-around   justify-evenly" style="background-image: url(../img/bacgrounfd.jpg);">
-    <div class="flex flex-wrap flex-col gap-7 p-14">
-        <h6 class="text-5xl uppercase font-semibold text-center  ">Welcome to  Good Food</h6>
-        <div class="h-1 w-28 bg-black m-auto align-middle">  </div>
-        <p class="text-center">Here are our most popular categories of recipes, submitted by our <br>
-            users, guests of our website, and professional cooks.</p>
-    </div>
+    
+        <div class=""><i class="fa-solid fa-phone "></i>
+            1-800-1234-567, 1-800-6547-321</div>
+            <div><i class="fa-solid fa-location-dot"></i>2130 Fulton Street San Diego, CA 94117-1080 USA</div>
+            <div><i class="fa-solid fa-envelope"></i>info@demolink.org</div>
+       
    
-    <div class="grid grid-cols-4 gap-4 container mx-auto bg-cover justify-center m-auto transition">
-        <div>
-            <img src="../img/1.jpg" alt="" class="m-auto hover:grayscale" >
-            <h1 class="font-bold text-orange-400 text-2xl hover:text-black  h-14 text-center">Chiken Recipes</h1>
-        </div>
-        <div>
-            <img src="../img/2.jpg" class="m-auto hover:grayscale" alt="">
-            <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Chiken Recipes</h1>
-        </div>
-    <div>
-        <img src="../img/3.jpg"  class="m-auto hover:grayscale" alt="">
-        <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Chiken Recipes</h1>
-    </div>
-       <div>
-        <img src="../img/4.jpg" alt=""  class="m-auto hover:grayscale">
-        <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Chiken Recipes</h1>
-       </div>
-       <div>
-        <img src="../img/5.jpg" alt=""  class="m-auto hover:grayscale">
-        <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Chiken Recipes</h1>
-       </div>
-         <div>
-            <img src="../img/6.jpg" alt=""  class="m-auto hover:grayscale" >
-            <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Chiken Recipes</h1>
-         </div>
-        <div>
-            <img src="../img/7.jpg" alt=""  class="m-auto hover:grayscale">
-            <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Chiken Recipes</h1>
-        </div>
-       <div>
-        <img src="../img/8.jpg" alt=""  class="m-auto hover:grayscale">
-        <h1 class="font-bold text-orange-400 text-2xl hover:text-black h-14 text-center">Chiken Recipes</h1>
-       </div>
-       
-       
-    </div>
+    
+
   </div>
-
-
-
-  <div class=" content-around   justify-evenly" >
-    <div class="flex flex-wrap flex-col gap-7 p-14">
-        <h6 class="text-5xl uppercase font-semibold text-center  ">Special Selections</h6>
-        <div class="h-1 w-28 bg-green-600 m-auto align-middle">  </div>
-        <p class="text-center">On our website you can find selections of recipes grouped by <br>
-            mealtimes, authors or ingredients..</p>
-    </div>
-    <div class="grid grid-cols-4 gap-4 container mx-auto bg-cover justify-center m-auto transition">
-<div>
-    <i class="fa-solid fa-utensils"></i>
-</div>
-
-
-        </div>
-
-
-
-
-    </div>
-
-
 
 
 
@@ -164,17 +217,17 @@
 
 
     <!-- footer -->
-    <footer class=" h-20 text-black  flex flex-wrap items-center justify-evenly ">
+    <footer class=" h-20 text-black  flex flex-wrap items-center justify-evenly bg-orange-50 ">
         <div class="flex flex-wrap gap-5 items-center ">
-         <img src="../img/3logo.jpg" class="w-16 h-16  float-start rounded-full " alt="">
-         <div class="flex flex-wrap flex-col">
-          <h5 class=" float-start italic font-serif font-bold">Good Food</h5>
-          <p class="italic font-serif ">Recipes</p>
-         </div>
+            <img src="../img/3logo.jpg" class="w-16 h-16  float-start rounded-full " alt="">
+            <div class="flex flex-wrap flex-col">
+                <h5 class=" float-start italic font-serif font-bold">Good Food</h5>
+                <p class="italic font-serif ">Recipes</p>
+            </div>
         </div>
-         <section class="float-right">
-             <h1>© 2024 All Rights Reserved Terms of Use and Privacy Policy</h1>
-         </section>
+        <section class="float-right">
+            <h1>© 2024 All Rights Reserved Terms of Use and Privacy Policy</h1>
+        </section>
     </footer>
 </body>
 
